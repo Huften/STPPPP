@@ -23,6 +23,7 @@ public:
     double getclosingprice(Trading& x);
     double getmaxprice(Trading& x);
     double getminprice(Trading& x);
+    std::vector<Candlestick> createcandlesticks(std::vector<Trading>& t);
     std::string date{};
 };
 

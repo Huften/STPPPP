@@ -5,7 +5,7 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(untitled src/main.cpp src/Candlestick.cpp src/Candlestick.h src/Trading.cpp src/Trading.h src/StocasticOscillator.cpp src/StocasticOscillator.h src/Simulator.cpp src/Simulator.h src/matplotlibcpp.h)
+add_executable(untitled src/main.cpp src/Candlestick.cpp src/Candlestick.h src/Trading.cpp src/Trading.h src/StocasticOscillator.cpp src/StocasticOscillator.h src/Simulator.cpp src/Simulator.h src/matplotlibcpp.h src/Visualise.cpp src/Visualise.h)
 
 include_directories(vcpkg/packages/jsoncpp_x86-windows/include)
 

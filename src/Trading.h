@@ -10,6 +10,8 @@ class Trading {
     double seq{};
     double price{};
 public:
+    static std::vector<Trading> parsejson();
+    static void sorttrades(std::vector<Trading> t);
     std::vector<double> seqv {};
     std::vector<double> pricev {};
     std::vector<std::string> datev{};

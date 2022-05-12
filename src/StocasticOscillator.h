@@ -4,6 +4,8 @@
 
 #ifndef UNTITLED_STOCASTICOSCILLATOR_H
 #define UNTITLED_STOCASTICOSCILLATOR_H
+#include "vector"
+#include "Candlestick.h"
 
 
 class StocasticOscillator {
@@ -14,6 +16,8 @@ public:
     double lowestprice{};
     double highestprice{};
     double stochasticindicator{};
+    std::vector<double> computefastoscillator(std::vector<Candlestick>& c);
+    std::vector<double> computeslowoscillator(std::vector<double>& k);
 };
 
 
